@@ -46,6 +46,17 @@ const person2 = {
 
 console.log(person2);
 
+//
+// Create an Object
+const person3 = new Object();
+
+// Add Properties
+person3.firstName = "John";
+person3.lastName = "Doe";
+person3.age = 50;
+person3.eyeColor = "blue";
+console.log(person3);
+
 // Arrays
 
 const cars = ["Saab", "Volvo", "BMW"];
@@ -54,3 +65,20 @@ const cars = ["Saab", "Volvo", "BMW"];
 //console.log(cars[0]);
 //console.log(cars[1]);
 console.log(cars.length);
+
+// Function
+
+//A JavaScript function is a block of code, function is executed when "something" invokes it (calls it).
+//Syntax: function name(parameter1, parameter2, parameter3) {
+// code to be executed
+//}
+
+//Example: 1
+
+// Function is called, the return value will end up in x
+let x = myFunction(4, 3);
+
+function myFunction(a, b) {
+  return a * b;
+}
+console.log(x);
