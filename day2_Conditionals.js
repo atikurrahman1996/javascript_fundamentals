@@ -6,8 +6,8 @@ let type = age >= 15 ? "adult" : "child";
 
 console.log(type);
 
-var a = 6;
-var access = a > 5;
+let a = 6;
+let access = a > 5;
 console.log(access);
 
 //Syntex: variablename = (condition) ? value1:value2
