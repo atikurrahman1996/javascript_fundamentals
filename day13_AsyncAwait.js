@@ -1,5 +1,6 @@
 //The Async Keyword:-We use the async keyword with a function to represent that the function is asynchronous.
 //The async function always returns a promise.
+// Async/Await: Syntactic sugar over promises, making asynchronous code look synchronous.
 
 // async function example:
 
