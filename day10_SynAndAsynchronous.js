@@ -31,7 +31,7 @@ const taskFive = () => {
 
 const taskSix = () => {
   setTimeout(() => {
-    console.log("Task 6");
+    console.log("Task 6, Data Loading for 3 sec");
   }, 3000);
 };
 const taskSeven = () => {
@@ -39,7 +39,7 @@ const taskSeven = () => {
 };
 const taskEight = () => {
   setTimeout(() => {
-    console.log("Task 8");
+    console.log("Task 8, Data Loading for 5 sec");
   }, 5000);
 };
 
