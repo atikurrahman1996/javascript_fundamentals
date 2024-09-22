@@ -11,14 +11,6 @@ for (let x = 0; x < buttonsLength; x++) {
     });
 }
 
-for (let x = 0; x < buttonsLength; x++) {
-  document
-    .querySelectorAll(".my-button")
-    [x].addEventListener("click", function () {
-      h1.innerHTML = this.innerHTML + " is clicked";
-    });
-}
-
 document.querySelector("#input-id").addEventListener("change", function (e) {
   console.log(e.target.value);
 });
@@ -38,3 +30,5 @@ h1.addEventListener("mouseout", function () {
   h1.style.color = "black";
   h1.style.fontSize = "2rem";
 });
+
+//to see the result, run Index3.html file
