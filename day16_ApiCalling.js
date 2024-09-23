@@ -136,3 +136,5 @@ const deleteData = () => {
     .catch((err) => console.log(err));
 };
 deleteData();
+
+// To see the result run Index4.html file

@@ -1,0 +1,23 @@
+{
+  "friends": [
+    {
+      "name": "Anar",
+      "age": 25,
+      "role": "Eng",
+      "language": ["Bengali", "English", "Germany"]
+    },
+
+    {
+      "name": "Ruhul",
+      "age": 28
+    },
+    {
+      "name": "Atik",
+      "age": "Israt"
+    },
+    {
+      "name": "Israt",
+      "age": "27"
+    }
+  ]
+}
