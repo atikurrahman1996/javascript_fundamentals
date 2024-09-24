@@ -75,4 +75,4 @@ console.log(
 // Expected output: '{"x":[10,null,null,null]}'
 
 console.log(JSON.stringify(new Date(2024, 9, 23, 15, 4, 5)));
-// Expected output: '"2006-01-02T15:04:05.000Z"'
+// Expected output: "2024-10-23T09:04:05.000Z"
