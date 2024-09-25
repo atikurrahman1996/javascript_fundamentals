@@ -1,12 +1,13 @@
 // Arrow function vs Traditional function
 
-// demo1 - must use parenthesis for no parameters, but for one parameter its optional
+// Traditional function
 
 function display1() {
   console.log("I am display 1");
 }
 display1();
 
+// demo1 - must use parenthesis for no parameters, but for one parameter its optional
 //Arrow function
 
 const display2 = () => {
