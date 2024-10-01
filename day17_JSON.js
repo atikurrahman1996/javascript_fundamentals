@@ -30,6 +30,7 @@ const data = require("./SampleData.json");
 
 //Use the JavaScript function JSON.parse() to convert json text into a JavaScript object:
 
+// Convert JSON to Obj
 //JSON.parse():
 
 const obj = JSON.parse('{"name":"John", "age":30, "city":"New York"}');
@@ -46,6 +47,7 @@ const obj2 = JSON.parse(text2);
 obj.birth = new Date(obj2.birth);
 console.log(obj2);
 
+// Convert Obj to JSON
 //JSON.stringify():
 
 const obj3 = { name: "John", age: 30, city: "New York" };

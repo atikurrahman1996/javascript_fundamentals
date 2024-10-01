@@ -1,4 +1,4 @@
-//Map - The map method is used to create a new array with the result of a callback function called on each element in the original array.
+//Map - The map method is used to create a new array with the result of a callback function.
 //The callback function takes one argument, the current element, and returns the new value for that element.
 
 //For example, the following code will return an array of each element multiplied by 2:
